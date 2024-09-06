@@ -4,6 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097A7;
     --gris: #757575;
+    --grisClaro: #dfe9f3;
 }
 
 html {
@@ -14,9 +15,11 @@ html {
 *, *:before, *:after {
     box-sizing: inherit;
 }
+
 body {
     font-size: 16px;
     font-family: "Krub", sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 
 h1 {
@@ -64,6 +67,15 @@ h1,h2,h3 {
     }
 }
 
+.sombra {
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+    -moz-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+    box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 .nav-bg {
     background-color: var(--secundario);
 }
@@ -101,6 +113,7 @@ h1,h2,h3 {
     background-size: cover;
     height: 45rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {

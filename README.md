@@ -20,6 +20,10 @@ Este es un proyecto que he ido creado a medida que seguía el curso de Udemy de 
 
     He cambiado la posición lateral del pin al lado de la ubicación a mantenerlo encima de la dirección por motivos estéticos.
 
+5. Espacio entre columnas de los servicios.
+
+    He modificado el valor del gap del grid columns de los servicios de 1 a 4 rem por motivos estéticos.
+
 ## Enlace de la fuente usada
 
 En este proyecto la fuente es importada de Google Fonts y se llama Krub.
